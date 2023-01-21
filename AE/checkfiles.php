@@ -12,3 +12,6 @@ if(is_dir($directory)) {
 } else {
   echo "Not a valid directory.";
 }
+
+echo "|||". $_SERVER['DOCUMENT_ROOT'];
+
