@@ -1,6 +1,6 @@
 <?php
 
-$directory = "../file/";
+$directory = "./file/";
 if(is_dir($directory)) {
     $files = scandir($directory);
     if(count($files) > 2) {
